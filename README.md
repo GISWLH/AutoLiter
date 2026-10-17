@@ -29,3 +29,14 @@ Notebook 中不同单元格可能采用不同输入文件；执行前请检查�
 ## 许可
 
 见 [`LICENSE`](LICENSE)。条幅的可编辑源文件为 [`assets/readme/banner.excalidraw`](assets/readme/banner.excalidraw)。
+
+
+<!-- readme-visual-refresh:remote-result -->
+## Output generated on EHPC · 17 October 2026
+
+![The original DOI extraction function found five DOI strings in the original SST.md example. Only local text extraction was executed; no metadata or PDF downloads were performed.](assets/readme/remote-result.png)
+
+The original DOI extraction function found five DOI strings in the original SST.md example. Only local text extraction was executed; no metadata or PDF downloads were performed.
+
+Generated in an isolated PBS CPU job. [Source and input checksums, versions and execution record](assets/readme/remote-run.json).
+<!-- /readme-visual-refresh:remote-result -->

@@ -1,0 +1,64 @@
+{
+  "project": "AutoLiter",
+  "command": [
+    "python",
+    "run_demo.py",
+    "--output-dir",
+    "../outputs"
+  ],
+  "python": "3.11.9 (main, Apr 19 2024, 16:48:06) [GCC 11.2.0]",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.9.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.2",
+    "seaborn": "0.13.2",
+    "shap": "0.46.0",
+    "numba": "0.60.0",
+    "xgboost": "1.7.6"
+  },
+  "started_at_utc": "2026-10-17T17:28:21.260498+00:00",
+  "finished_at_utc": "2026-10-17T17:28:21.775520+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 0.5150210859719664,
+  "execution_kind": "original notebook DOI function plus new offline presentation wrapper",
+  "project_pipeline_rerun": false,
+  "environment": "EHPC PBS CPU job",
+  "resources": {
+    "nodes": 1,
+    "cpus": 2,
+    "memory_gb": 4
+  },
+  "outputs": [
+    {
+      "path": "doi-extraction-result.png",
+      "sha256": "7c704238968aa97f9724d7bd6a6d0455f533cb5850f4c04d0b79ec6a10eea301",
+      "bytes": 112328
+    }
+  ],
+  "source_files": [
+    {
+      "path": "source/extract_doi.py",
+      "sha256": "2d6df4353d42767d4748a0e60f3760205e7ef2e547f782f6565b54443fc69f56",
+      "bytes": 372
+    },
+    {
+      "path": "source/run_demo.py",
+      "sha256": "ecc3e8078c6272a4c403777ac62b6aa17ae3648f54b1adc0ae9aab15c87c17fd",
+      "bytes": 2582
+    }
+  ],
+  "input_files": [
+    {
+      "path": "manifest.json",
+      "sha256": "d2d005dd5ae026d730b29af9e859df0ec841fef674c1557fc1ce6ffcdec7058d",
+      "bytes": 1580
+    },
+    {
+      "path": "source/SST.md",
+      "sha256": "5e91e3ff1c5f346c6497be51c18e9b24c92d7b5da8d9fc75270b1094ebd59a7f",
+      "bytes": 158
+    }
+  ]
+}
